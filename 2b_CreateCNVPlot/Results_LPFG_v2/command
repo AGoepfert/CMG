@@ -1,2 +1,0 @@
- Rscript CNV_calling_S2S_v3.R MeanOverAllSamples.txt LPFG.out.txt
-
