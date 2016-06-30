@@ -1,1 +1,0 @@
-These tools are used for Marieke's mesothelioma data sets. Because the naming of those files is quiet specific and the pattern changes, it was important and difficult to solve all those issues and the main reason why those scripts are quiet long.
