@@ -1,0 +1,85 @@
+```{r, echo=FALSE}
+# General information which are used in following text
+genename = "DFNA5"
+cancertype = "COAD"
+```
+
+
+---
+title: "Lollipop Plot analysis - 38 Pnets"
+author: package trackViewer
+date: \today
+output: pdf_document
+header-includes:
+- \usepackage{booktabs}
+---
+
+```{r, echo=FALSE}
+# General information which are used in following text
+genename = "DFNA5"
+cancertype = "COAD"
+```
+
+
+Introduction
+-------------
+
+The following pages contains the result of your TCGA  `r genename` analysis in `r cancertype`:
+
+\begin{itemize}
+      \item general information
+      \item methylation plots
+      \item survival analysis
+\end{itemize}
+
+
+General information
+-------------------
+
+\begin{table}[!ht]
+\caption[test]{general information}
+\begin{tabular}{rl}
+\textbf{Parameters} & \textbf{Values} \\ 
+\toprule
+\# samples & ? \\
+\# normal samples & ?\\
+\# tumor samples & ?\\
+\bottomrule
+\end{tabular}
+\label{table:Allpath}
+\end{table}
+
+
+Methylation plots
+-------------------
+Some information about the plot - here you can see beta-methylation values over all patients and the given cpg probes.
+
+
+\includegraphics{/home/agoepfert/documents/tcga/Plot_Methylation_Expression/methylation_plot/TCGA_MetyhlExprPlot_COAD_DFNA5.pdf}
+
+
+EXAMPLES
+--------
+
+```{r}
+for (i in 1:3){
+  summary(cars)
+p = 15
+}
+
+```
+
+hier a sentence with a variable `r p`
+
+You can also embed plots, for example:
+
+```{r, echo=TRUE}
+for (i in 1:3){
+  plot(cars)
+p = 15
+}
+plot(cars)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
